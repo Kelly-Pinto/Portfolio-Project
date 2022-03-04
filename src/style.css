@@ -24,6 +24,32 @@ h3 {
   line-height: 36px;
 }
 
+nav {
+  padding-top: 15px;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  padding: 0 8px;
+}
+
+nav ul {
+  padding: 10px 0;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #67637a;
+  font-weight: 500;
+}
+
+nav a :hover,
+nav li.active a {
+  color: var(--primary-color);
+}
+
 .hero {
   text-align: center;
   background-color: var(--secondary-color);
