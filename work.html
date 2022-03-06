@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Work</title>
+    <meta name="description" content="Take a look at the different projects Kelly has worked on. They use HTML, CSS, JavaScript and React." content="" />
+    <title>Kelly's Work</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -31,14 +32,21 @@
   </head>
   <body>
        <div class="container">
-      <nav class="d-flex justify-content-between">
-        <img src="images/logo.png" class="logo d-none d-md-block" />
+    <nav class="d-flex justify-content-between">
+        <img
+          src="images/logo.png"
+          class="logo d-none d-md-block"
+          alt="Kelly Pinto logo"
+          title="Homepage"
+        />
         <img src="images/logo-small.png" class="logo d-block d-md-none" />
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li class="active"><a href="/work.html"> Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li><a href="/about.html" title="About Kelly Pinto">About</a></li>
+          <li class="active"><a href="/work.html" title="Kelly Pinto's work"> Work</a></li>
+          <li>
+            <a href="/contact.html" title="Contact Kelly Pinto">Contact</a>
+          </li>
         </ul>
       </nav>
     </div>
@@ -51,23 +59,23 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6">
-              <img src="images/yogurt.png" class="img-fluid mb-3" />
+              <img src="images/yogurt.png" class="img-fluid mb-3" alt="yogurt project preview" />
               <h3 class="text-center">Yogurt Project</h3>
               <p class="text-center mb-5">Front-end Developer</p>
             </div>
             <div class="col-md-6">
-              <img src="images/weather.png" class="img-fluid mb-3" />
+              <img src="images/weather.png" class="img-fluid mb-3" alt="weather project preview" />
               <h3 class="text-center">Weather App</h3>
               <p class="text-center mb-5">Front-end Developer</p>
             </div>
               <div class="row">
             <div class="col-md-6">
-              <img src="images/dictionary.png" class="img-fluid mb-3" />
+              <img src="images/dictionary.png" class="img-fluid mb-3" alt="dictionary project preview" />
               <h3 class="text-center">Dictionary App</h3>
               <p class="text-center mb-5">Front-end Developer</p>
             </div>
             <div class="col-md-6">
-              <img src="images/translation.png" class="img-fluid mb-3" />
+              <img src="images/translation.png" class="img-fluid mb-3" alt="translation project preview" />
               <h3 class="text-center">Translation App</h3>
               <p class="text-center mb-5">Front-end Developer</p>
             </div>
@@ -75,5 +83,45 @@
         </div>
       </div>
     </div>
+     <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8">
+              <h4>Work Inquiry</h4>
+              <p>Let’s work together and i’ll help you by all my best</p>
+            </div>
+            <div class="col-sm-4">
+              <a
+                href="/contact.html"
+                class="btn btn-branding"
+                title="Email Kelly"
+                >Let's talk here</a
+              >
+            </div>
+          </div>
+        </div>
+        <a href="mailto:krichardson14@gmail.com" class="email-link"
+          >krichardson14@gmail.com</a
+        >
+        <div class="social-links d-flex justify-content-center">
+          <a href="https://www.instagram.com" target="_blank">
+            <i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.github.com"
+            target="_blank"
+            title="GitHub Profile"
+          >
+            <i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://www.facebook.com" target="_blank">
+            <i class="fa-brands fa-facebook"></i
+          ></a>
+        </div>
+        <p class="text-muted text-center mt-5">
+          This site was coded by Kelly Pinto and is
+          <a href="#" target="_blank"> open sourced</a>.
+        </p>
+      </footer>
   </body>
 </html>

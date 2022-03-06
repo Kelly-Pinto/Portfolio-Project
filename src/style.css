@@ -104,12 +104,12 @@ footer .social-links a:hover {
 .hero {
   text-align: center;
   background-color: var(--secondary-color);
-  padding: 125px 0;
+  padding: 60px 0;
   margin-bottom: 125px;
 }
 
 .section-container {
-  padding: 125px 0;
+  padding: 60px 0;
 }
 
 .hero h1 {
